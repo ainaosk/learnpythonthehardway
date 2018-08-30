@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jul 26 12:19:32 2018
-
-@author: 2918522
+Learn Python the Hard Way: Exercise 38
 """
 
 ten_things = "Apples Oranges Crows Telephone Light Sugar"
@@ -16,7 +14,7 @@ while len(stuff) != 10:
     print("Adding: ", next_one)
     stuff.append(next_one)
     print("There's %d items now." % len(stuff))
-    
+
 print("There we go: ", stuff)
 
 print("Let's do some things with stuff.")

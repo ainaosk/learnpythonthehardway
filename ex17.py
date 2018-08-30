@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 10:11:17 2018
-
-@author: 2918522
+Learn Python the Hard Way: Exercise 17
 """
 
 from sys import argv

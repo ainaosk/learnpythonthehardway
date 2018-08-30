@@ -1,3 +1,8 @@
+'''
+Learn Python the Hard Way: Exercise 41_zed
+
+'''
+
 import random
 from urllib.request import urlopen
 import sys
@@ -82,4 +87,3 @@ try:
             print(f"ANSWER:  {answer}\n\n")
 except EOFError:
     print("\nBye")
-

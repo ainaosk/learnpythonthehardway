@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 31 18:35:34 2018
-
-@author: Aina
+Learn Python the Hard Way: Exercise 39
 """
 
 #create a mapping of state to abbreviation
@@ -46,12 +44,12 @@ print("Florida has: ", cities[states['Florida']])
 print('-'*10)
 for state, abbrev in states.items():
     print("%s is abbreviated %s" % (state, abbrev))
-    
+
 #print every city in state
 print('-'*10)
 for abbrev, city in cities.items():
     print("%s has the city %s" % (abbrev, city))
-    
+
 #Now do both at the same time
 print('-'*10)
 for state, abbrev in states.items():
@@ -63,7 +61,7 @@ state = states.get('Texas', None)
 
 if not state:
     print('Sorry, no Texas.')
-    
+
 #get a city with a default value
 city = cities.get('TX', 'Does not exist')
 print("The city for the state 'TX' is: %s" % city)

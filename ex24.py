@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 19:02:49 2018
-
-@author: Aina
+Learn Python the Hard Way: Exercise 24
 """
 
 print("Let's practice everything.")
@@ -40,4 +38,3 @@ start_point = start_point / 10
 
 print("We can also do that this way:")
 print("We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point))
-

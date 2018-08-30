@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 12:06:28 2018
-
-@author: 2918522
+Learn Python the Hard Way: Exercise 21
 """
 
 def add(a, b):
@@ -35,4 +33,3 @@ print("Here is a puzzle.")
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print("That becomes:", what, "Can you do it by hand?")
-

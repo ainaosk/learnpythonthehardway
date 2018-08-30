@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 24 21:15:42 2018
+Learn Python the Hard Way: Exercise 26
 
-@author: Aina
 """
 def break_words(stuff):
     """This function will break up words for us."""
@@ -22,7 +21,7 @@ def print_last_word(words):
     """Prints the last word after popping it off."""
     words = words.pop(-1)
     print(words)
-    
+
 def sort_sentence(sentence):
     """Takes in a full sentence and returns the sorted words."""
     words = break_words(sentence)
@@ -92,4 +91,3 @@ sorted_words = sort_sentence(sentence)
 
 print_first_and_last(sentence)
 print_first_and_last_sorted(sentence)
-
